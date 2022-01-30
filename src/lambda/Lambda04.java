@@ -107,6 +107,7 @@ public static void ebikGabık(List<String> l) {
     System.out.println("elemanlardan herhangi biri R ile bitiyormu "+result3);
 
 }
+    
 //elemanları sondan 2. elemanlarına göre sıralayıp ilk elemanı yazdır
     public static void sondanIkinciSiralaIlk(List<String> l) {
         System.out.println(l.stream().sorted(Comparator.comparing(t -> t.charAt(t.length() - 2))).findFirst());
