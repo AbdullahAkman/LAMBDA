@@ -34,6 +34,7 @@ public class lambda03 {
         l.stream().sorted().skip(3).limit(3).forEach(metodLambda2::bosluklaYazdir);
         System.out.println();
         l.stream().sorted().limit(6).skip(3).forEach(metodLambda2::bosluklaYazdir);
+    
     }
 
 
