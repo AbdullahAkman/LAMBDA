@@ -18,7 +18,6 @@ public class lambda03 {
 
 
 
-
     //1) küçükten büyüğe sırala sonra ilk 4 elemanı yazdır
     public static void ilkDortEleman(List<Integer> l) {
         l.stream().sorted().limit(4).forEach(metodLambda2::bosluklaYazdir);
