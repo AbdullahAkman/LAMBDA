@@ -15,7 +15,6 @@ public class lambda03 {
         ucElemanYazdir(1);
         
 
-
     }
 
 
