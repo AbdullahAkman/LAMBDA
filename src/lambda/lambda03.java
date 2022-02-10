@@ -11,7 +11,9 @@ public class lambda03 {
         System.out.println();
         ilkDortElemanGec(l);
         System.out.println();
-        ucElemanYazdir(l);
+        
+        ucElemanYazdir(1);
+        
 
 
     }
