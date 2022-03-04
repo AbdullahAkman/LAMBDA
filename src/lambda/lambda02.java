@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class lambda02 {
     public static void main(String[] args) {
 // Method Reference'da bizim oluşturduğumuz metodları  veya Java metodlarını kullanırız.
-        //Method Reference Syntax ı ==> ClassName::MethodName  System.out.println();  ==  System.out::println;
+        //Method Reference Syntax ı ==> ClassName::MethodName  System.out.println();  ===  System.out::println;
 List<Integer> l= new ArrayList<>(Arrays.asList(15,14,9,13,4,9,2,4,14,6));
 
 elemanYazdir(l);
