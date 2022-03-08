@@ -26,6 +26,7 @@ public class Lambda06 {
         //3)Ortalama puanı en yüksek olan kursu yazdırmak için bir yöntem oluşturun
         System.out.println(uniList.stream().sorted(Comparator.comparing(UniversiteLambda6::getNotOrtalama).reversed()).findFirst());
 
+        
         //4)Not ortalamasına göre artan sıralama yapıp ilk elemanı atla ve list olarak yazdır
         System.out.println(uniList.stream().sorted(Comparator.comparing(UniversiteLambda6::getNotOrtalama)).skip(1).collect(Collectors.toList()));
     }
